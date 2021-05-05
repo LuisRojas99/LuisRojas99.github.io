@@ -1,0 +1,69 @@
+<html>
+<head>
+<link href="format.css" rel="stylesheet" type="text/css">
+<h1>Design</h1>
+</head>
+
+<h2>Architecture design:</h2>
+<img src="SingletonArchDesign.png", width = "1420", height="1700">
+<p>The image shown is the Singleton architecture design. all scenes connect to the main menu scene.
+<br>Each scene has its own mechanisms and purpuses but share a common robust source.</p>
+
+
+
+<h2>Overview of project</h2>
+	<ul>
+		<li>Have a main menu that will divert to the scene the player wants to go to.</li>
+		<li> Will have several minigames the player can go to, and settings the player can move.</li> 
+		<li> Will have a pause menu where the player can quit the game.</li>
+	</ul>
+
+<h2>SudokuGrid</h2>
+	<ul>
+	<li>Rendering a 9 by 9 squares grid for sudoku</li>
+		<ul>
+		<li>recieving an array and puting the values into the grid, and eventually deciding if the number inputted is correct</li>
+			<ul>
+			<li>If the number is incorrect loose a live.</li>
+			</ul>
+		</ul>
+	<li>Creating random valid sudoku grids.</li>
+    <ul>
+		<li>making the missing spots by an algorithm, depending in dificulty level</li>
+    </ul>
+	</ul>
+
+<h2>Chest</h2>
+	<ul>
+	<li>SInteract with chest</li>
+	<li>button to open chest</li>
+		<ul>
+		<li>when button is clicked go to sudoku</li>
+		
+		</ul>
+	<li>Rarity</li>
+	<li>Dificulty</li>
+	<li>Rewards</li>
+	</ul>
+
+<h2>Pause</h2>
+	<ul>
+	<li>Freeze everything on game</li>
+	<li>Can exit the game from here</li>
+	<li>Can go to shop from here</li>
+			
+	</ul>
+
+<h2>WaterpipeGame</h2>
+	<ul>
+	<li>Randomize puzzles</li>
+	<li>It would give you an unique power up</li>
+	</ul>
+
+<h2>Settings Menu</h2>
+<ul>
+	<li>Music Volume on/of</li>
+	<li>Graphics resolution.</li>
+</ul>
+
+</html>
