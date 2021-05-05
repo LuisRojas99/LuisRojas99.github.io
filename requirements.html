@@ -1,0 +1,70 @@
+<html><head>
+<link href="format.css" rel="stylesheet" type="text/css">
+</head><body><h1>Requirements Specification for TheRayTracers</h1>
+
+
+
+
+    <h2>Requirements Specification for TheRaytracers Game</h2>
+<h3>1. Introduction</h3>
+<h4>1.1 Purpose of Product</h4>
+<p>The purpose of the product “Raytracer’s Game” Is to entertain the user while the user is bored and has nothing else to do. The game would be designed to be as entertaining as possible, making the user engage for the longest time possible by making the user think about the solutions the puzzles will have.</p>
+<h4>1.2 Scope of Product</h4>
+<p>The scope of the game has several features. Several levels or maps where the next map will always be harder than the last, making the puzzles harder every time the user completes the puzzle. It will have a ray tracing mechanism where only a bubble around the character is visible and everything else is darker (less visible). It will have buttons in the menu to access the different windows within the game, where it will have an about window, a settings window, and a start game button. Each window will have a back to main menu button to go back. It will have a main character which it will be at the center of the screen, the camera will follow the main character, and the main character will always look at the mouse cursor. It will not have a roguelike map generator system.</p>
+<h4>1.3 Acronyms, Abbreviations, Definitions</h4>
+<p>None </p>
+<h4>1.4 References</h4>
+<p>In the making of the videogame I have seen different tutorials:
+https://www.youtube.com/watch?v=_VH7K8w3UHU&amp;t=1184s&amp;ab_channel=CodePlanStudio I watched all of the tutorials but did not implement all of it.
+for tile maps :
+https://www.youtube.com/watch?v=ryISV_nH8qw&amp;t=118s&amp;ab_channel=Brackeys
+https://www.youtube.com/watch?v=1w5VEgXBo4E&amp;t=551s&amp;ab_channel=CodeMonkey
+colliders :
+https://www.youtube.com/watch?v=Cry7FOHZGN4&amp;t=411s&amp;ab_channel=CouchFerretmakesGames
+Camera:
+https://www.youtube.com/watch?v=GOQV688wbU0&amp;t=301s&amp;ab_channel=HundredFiresGames
+Raytrace concept:
+https://www.youtube.com/watch?v=U2ID-Psyg2U&amp;t=156s&amp;ab_channel=Guinxu
+</p>
+<h3>2. General Description of Product</h3>
+<p>This section contains a longer but not exhaustive description of your product.</p>
+<h4>2.1 Context of Product</h4>
+<p>The context of this game will be to have it on your pc and play it whenever you feel to, or on your phone.</p>
+<h4>2.2 Domain Model with Description</h4>
+<img src="diagram.jpeg" ,="" width="3750" height="1500">  
+<p>The Diagram above is the diagram of the full game with the scripts it has and relationships.</p>
+<h4>2.3 Product Functions (general)</h4>
+<p>The product Functions are the following : to be capable of have several menus within the main menu, each menu will display the correspondent information and options with a back button, the main menu will have a play button that will initiate the game changing the scene to the game scene. On the game scene will have a player character that will be able to open up chests and go through a puzzle and complete it.</p>
+<h4>2.4 User Characteristics and Expectations</h4>
+<p>The User Characteristics are that they have to be bored or willing to play the game, and their abilities will be to be able to count and make logical inferences to play a puzzle game with its rules.</p>
+<h4>2.5 Constraints</h4>
+<p>Wrote in C#.</p>
+<h4>2.6 Assumptions and Dependencies</h4>
+<p>My System has a lot of assumptions and dependencies, like the scripts already provided by the Unity environment Ex. Rigidbody2D, Tilemapping, MainCamera.</p>
+<h3>3. Functional Requirements</h3>
+<p> https://luisrojas99.github.io/userstories.html </p>
+<h3>4. System and Non-functional Requirements</h3>
+<h4>4.1 External Interface Requirements (User,Hardware,Software,Communications)</h4>
+<p>              4.1.1 Computer screen
+&emsp;                4.1.2 Working mouse
+                 4.1.3 Working Keyboard
+&emsp;                4.1.4 Ability to run the game</p>
+<h4>4.2 Performance Requirements</h4>
+<p>NF.4.2.1 : The sudoku generated should not take more than 15 seconds to be generated.
+   NF.4.2.2: The Player movement should be smooth, even if you rotate the mouse really fast, the game should not freeze.
+</p>
+<h4>4.3 Design Constraints</h4>
+<p>NF.4.3.1 The player should be able to have a mouse and keyboard to play.</p>
+<h4>4.4 Quality Requirements</h4>
+<p>NF.4.4.1 Not much quality is expected. the system is not life critical.</p>
+<h4>4.5 Other Requirements</h4>
+<p>None</p>
+<h3>5. Appendices</h3>
+<p>All references made above.</p>
+  
+
+
+
+
+
+</body></html>
